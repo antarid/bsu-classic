@@ -14,6 +14,7 @@ int main () {
             k++;
         }
     }
+    k--;
     bool flag=true;
     for ( int i=0; i<=k-1; i++, k-- ) {
         if (str2[i]!=str2[k]) {
