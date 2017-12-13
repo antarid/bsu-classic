@@ -13,7 +13,6 @@ int  main(){
      cifra = n % 16;
      cout<<hex<<"n = "<<n<<" cifra = "<<cifra;
      n = n / 16;
-
      cout<<endl;
    }
    cout<<endl;

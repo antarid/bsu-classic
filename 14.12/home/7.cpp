@@ -1,3 +1,4 @@
+//С помощью битовых операций вывести цифры числа (hex) (в прямом порядке)
 #include <iostream>
 using namespace std;
 int main () {
