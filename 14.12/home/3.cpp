@@ -1,3 +1,4 @@
+//3. Дана матрица n * m. Умножить ее скалярно на одиночную матрицу с m строк.
 #include <iostream>
 #include <cstring>
 #include <cstdio>

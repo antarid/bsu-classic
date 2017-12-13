@@ -1,3 +1,4 @@
+//2. Дана матрица n * m. Удалить строку с максимальным кол-вом нулевых элементов.
 #include <iostream>
 #include <cstring>
 #include <cstdio>
