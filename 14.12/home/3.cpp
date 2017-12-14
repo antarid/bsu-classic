@@ -12,7 +12,7 @@ int main () {
         n,
         m,
         b[D2],
-        result[D2];
+        result[D1] = {0};
     cout << "Enter n, m " << endl;
     cin >> n >> m;
     srand(time(NULL));
@@ -35,11 +35,12 @@ int main () {
     cout << endl;
     cout << "The result: \n";
     for ( int i=0; i<n; i++ ) {
-        int res = 0;
+       // int res = 0;
         for ( int j=0; j<m; j++ ) {
-            res += a[i][j]*b[j];
+            // res += a[i][j]*b[j];
+            result[i] += a[i][j]*b[j];
         }
-        result[i]=res;
+        // result[i]=res;
         cout.width(4);
         cout << result[i] << endl; 
     }

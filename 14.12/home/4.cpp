@@ -3,7 +3,6 @@
 #include <cstdlib>
 using namespace std;
 const int MAX_LENGTH = 25;
-
 int findMax ( int a, int b, int c ) {
     int max = a;
     if ( b>max ) max = b;
@@ -22,7 +21,6 @@ int findMiddle( int a, int b, int c ) {
 bool triangle ( int a, int b, int c ) {
     return findMax( a, b, c ) < findMin( a, b, c ) + findMiddle( a, b, c );
 }
-
 int main () {
     int a[MAX_LENGTH],
         b[MAX_LENGTH],
@@ -41,7 +39,7 @@ int main () {
     for ( int i=0; i<n; i++ ) {
         cout << i << ") Triangle with sides: " << a[i] << ' ' << b[i] << ' ' << c[i];
         if ( triangle( a[i], b[i], c[i] ) ) {
-            cout << " Exists. Perimetr = " << a[i]+b[i]+c[i] << endl;
+            cout << " Exists. Perimeter = " << a[i]+b[i]+c[i] << endl;
             counter++;
         }
         else cout << " Doesn't exist" << endl; 

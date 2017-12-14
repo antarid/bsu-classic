@@ -22,10 +22,11 @@ int main () {
                             a[l]=a[l+1];
                         }
                         j--;
+                        i--;
                     }
                 }
             }
-            k=0;
+        k=0;
         }
     }
     for ( int i=0; i<length; i++ ) {
