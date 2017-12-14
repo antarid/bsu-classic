@@ -64,5 +64,6 @@ int main () {
     cout << "b(16) = " << hex << b << endl;
     cout << "b<<12 = " << hex << (b<<12) << endl;
     cout << "---------------------------------------" << endl;
+    return 0;    
 }
 
