@@ -2,8 +2,6 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-#include <cstring>
-#include <cmath>
 using namespace std;
 void toBinary (unsigned int n) {
     int a[32];
