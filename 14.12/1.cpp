@@ -3,8 +3,7 @@
 using namespace std;
 int main () {
     int a,
-        counter=0,
-        digit;
+        counter=0;        
     cin >> hex >> a;
     cout << hex << a << endl;
     while ( a ) {
