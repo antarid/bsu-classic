@@ -22,5 +22,5 @@ int main () {
             break;
         }
     }
-    cout << str2 << endl << flag << endl;
+    cout << flag << endl;
 }
