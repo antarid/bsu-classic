@@ -44,4 +44,5 @@ int main () {
         else cout << a[i] << ' ';
     }
     cout << endl;
+    return 0;
 }
