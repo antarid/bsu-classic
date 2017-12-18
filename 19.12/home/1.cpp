@@ -39,7 +39,7 @@ int main () {
     for ( int i=0; i<length; i++ ) {
         if ( a[i] == max && flag ) {
             cout << a[i] << " (max) ";
-            flag = !flag;
+            !flag;
         }
         else cout << a[i] << ' ';
     }
