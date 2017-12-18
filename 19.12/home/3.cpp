@@ -30,17 +30,16 @@ int main () {
     for ( int i=1; i<length; i++ ) {
         if ( a[i]==' ' ) spaceCounter++;
         else spaceCounter = 0;
-        if ( (a[i+1]!=' ' || i+1 == length) && spaceCounter>1 ) {
-            length = length - spaceCounter + 1;
-            for ( int k = i-spaceCounter+1; k<length; k++ ) {
+        if ( a[i+1]!=' ' && spaceCounter>1 ) {
+            length = length - spaceCounter + 1; for ( int k = i-spaceCounter+1; k<length; k++ ) {
                 a[k] = a[k+spaceCounter-1];
             }
             i = i - spaceCounter+1;
         }
     }
     // Выводим получившуюся строку
-    for ( int j=0; j<length; j++ ) {
-        cout << a[j];
+    for ( int i=0; i<length; i++ ) {
+        cout << a[i];
     }
     return 0;
 }
