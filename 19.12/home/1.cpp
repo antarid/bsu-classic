@@ -28,8 +28,7 @@ int main () {
             if ( a[k]>a[k+1] ) {
                 int temp;
                 temp = a[k];
-                a[k] = a[k+1];
-                a[k+1] = temp;
+                a[k] = a[k+1]; a[k+1] = temp;
             }
         }
     }

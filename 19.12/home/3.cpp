@@ -31,7 +31,8 @@ int main () {
         if ( a[i]==' ' ) spaceCounter++;
         else spaceCounter = 0;
         if ( a[i+1]!=' ' && spaceCounter>1 ) {
-            length = length - spaceCounter + 1; for ( int k = i-spaceCounter+1; k<length; k++ ) {
+            length = length - spaceCounter + 1;
+            for ( int k = i-spaceCounter+1; k<length; k++ ) {
                 a[k] = a[k+spaceCounter-1];
             }
             i = i - spaceCounter+1;
