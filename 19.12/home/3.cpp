@@ -39,8 +39,8 @@ int main () {
         }
     }
     // Выводим получившуюся строку
-    for ( int j=0; j<length; j++ ) {
-        cout << a[j];
+    for ( int i=0; i<length; i++ ) {
+        cout << a[i];
     }
     return 0;
 }
